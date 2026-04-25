@@ -1,0 +1,23 @@
+@media (max-widht: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+.section{
+    padding: clamp(60px,10vw,120px)
+}
+.features{
+    background-color: black;
+}
