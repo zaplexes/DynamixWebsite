@@ -84,7 +84,7 @@ function createSlides(){
         const slide = document.createElement("div");
         slide.classList.add("slide")
         carousel.appendChild(slide)
-        slide.style.backgroundImage = `url(/assets/images/carousel/${image}.jpg)`;
+        slide.style.backgroundImage = `url(./assets/images/carousel/${image}.jpg)`;
     }
 }
 
