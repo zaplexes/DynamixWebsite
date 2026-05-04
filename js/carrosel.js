@@ -66,6 +66,7 @@ function changePage(current_page){
         return last_page
     }
 }
+
 function isInBound(current_page){
     if (current_page < 0){
         return "below"
